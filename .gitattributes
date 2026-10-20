@@ -1,0 +1,6 @@
+# Exclude generator and documentation from GitHub Linguist language statistics
+generate_polyglot.py linguist-detectable=false
+README.md linguist-detectable=false
+
+# Guarantee detection for all polyglot files
+polyglot_repo/src/* linguist-detectable=true

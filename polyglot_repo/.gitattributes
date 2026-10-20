@@ -1,0 +1,3 @@
+# GitHub Linguist configuration
+# Mark all files in src/ as detectable code to guarantee inclusion in language statistics
+src/* linguist-detectable=true
